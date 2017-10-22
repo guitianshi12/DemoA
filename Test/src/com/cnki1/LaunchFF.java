@@ -36,7 +36,7 @@ public class LaunchFF {
     }
 
     /**
-     *
+     *test
      */
     @Test
     public int testLan() {
