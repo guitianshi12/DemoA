@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="TestNG">
+        <parameter name="username" value="kk"/>
+        <groups>
+            <!--     <define name="all">
+                   <include name="test1"/>
+                   <include name="test3"/>
+                 </define>
+                 <define name="tt">
+                   <include name="test3"/>
+                 </define> -->
+            <run>
+                <include name="test1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.cnki1.Test1"/>
+            <class name="com.cnki1.PracticeTestNG1"/>
+        </classes>
+
+    </test> <!-- TestNG -->
+</suite> <!-- Default Suite -->
